@@ -1,21 +1,346 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <title>Trường Mầm Non Kids'Smile</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="content">
-            <h1>Xin chào, đây là trang web Trường Mầm Non Kids'Smile.</h1>
-            <h2>Trang web đang được xây dựng và sớm cung cấp đầy đủ nội dung cho Quý Phụ Huynh theo dõi ạ.</h2>
-            <img src="./panel.jpg" /><br/>
-            🅿  https://www.facebook.com/mamnonkidssmilevinh/<br/>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường Mầm Non Kids’ Smile </title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
 
-            📧 Email: truyenthongkidssmile@gmail.com<br/>
-            🕌 Địa chỉ: Số 302 - Đường Lê Viết Thuật - TP.Vinh - Nghệ An<br/>
-            ☎️ Hotline: 0918 181 355 - 034 8366 355<br/>
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        
+        /* Citations */
+        cite {
+            font-size: 0.7em;
+            vertical-align: super;
+            color: #007BFF;
+            font-style: normal;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: #4a90e2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+
+        header h1 {
+            padding: 0;
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: #4a90e2;
+            color: #fff;
+        }
+
+        /* Sections */
+        section {
+            padding: 30px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        section h2 {
+            color: #0779e4;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        section h3 {
+            color: #0779e4;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+        }
+        
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .card h4 {
+            margin-top: 0;
+            color: #0779e4;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        ul li {
+            background: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 30px 0;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #333;
+            text-align: center;
+        }
+        
+        footer a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Trường Mầm Non Kids’ Smile </h1>
         </div>
-    </body>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#home">Trang chủ </a>
+            <a href="#gioi-thieu">Giới thiệu </a>
+            <a href="#doi-ngu">Đội ngũ </a>
+            <a href="#chuong-trinh">Chương trình học </a>
+            <a href="#thuc-don">Thực đơn </a>
+            <a href="#tin-tuc">Tin tức & Sự kiện </a>
+            <a href="#tuyen-sinh">Tuyển sinh </a>
+            <a href="#lien-he">Liên hệ </a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="container">
+            <h2>Chào mừng đến với Kids' Smile </h2>
+            <p>KIDS’ SMILE là ngôi trường mầm non được xây dựng với lý tưởng “góp phần công sức nhỏ bé của mình cho sự nghiệp trồng người” để tạo ra những thế hệ “công dân mới” có đủ cả Đức lẫn Tài. </p>
+            <img src="img_2506/1.gv.jpg" alt="Tập thể giáo viên trường Mầm non Kids' Smile tại lễ tổng kết năm học 2024-2025" />
+        </section>
+
+        <section id="gioi-thieu" class="container">
+            <h2>Giới thiệu chung </h2>
+            
+            <h3>Tư Tưởng Lớn Gặp Nhau </h3>
+            <p>Đúng như đại văn hào Voltaire đã nói “tư tưởng lớn gặp nhau”, một nhân duyên vô cùng tuyệt vời đã đến, khi KIDS’ SMILE gặp được Hệ thống giáo dục KHAI MINH ĐỨC – Hệ thống luôn lấy giáo dục nhân cách làm nền tảng , với kinh nghiệm hơn 8 năm phát triển, mang lại nhiều thành quả tốt và được phụ huynh hưởng ứng, tin tưởng. </p>
+            <p>Vào tháng 1 năm 2022, Trường mầm non KIDS’ SMILE đã gia nhập và trở thành thành viên chính thức của Hệ Thống giáo dục KHAI MINH ĐỨC. </p>
+
+            <h3>Hệ thống Giáo Dục Khai Minh Đức mang lại cho Con những giá trị nào? </h3>
+            <ul>
+                <li><strong>Chuẩn mực làm người:</strong> Được xây dựng thành hệ thống những bài giảng và hoạt động đơn giản, phù hợp với các độ tuổi, mang tính ứng dụng và thực tiễn cao. </li>
+                <li><strong>Chú trọng nhiều về thực hành:</strong> Trải nghiệm nhằm phát triển nhân cách, kiến thức, kỹ năng một cách chủ động. </li>
+                <li><strong>Phát triển toàn diện:</strong> Bao gồm thể chất, ngôn ngữ, nhận thức, thẩm mỹ, tình cảm và kỹ năng xã hội. </li>
+                <li><strong>Kỹ năng làm việc nhóm được đề cao:</strong> Các con được chia nhóm để học tập, làm việc và tương tác hỗ trợ lẫn nhau. </li>
+                <li><strong>Giáo dục tùy cơ:</strong> Tùy vào căn cơ, khả năng và hoàn cảnh của từng học sinh để đưa ra cách thức giáo dục phù hợp. </li>
+                <li><strong>Kết tinh Văn hóa Giáo dục:</strong> Đưa tinh hoa văn hóa các nước vào chương trình học, đồng thời phát huy truyền thống văn hóa tốt đẹp của dân tộc. </li>
+                <li><strong>Đồng hành cùng Phụ huynh:</strong> Có các chương trình dành cho phụ huynh để cùng nhà trường nuôi dạy con. </li>
+            </ul>
+
+            <h3>Cơ sở vật chất </h3>
+            <p>Trường Mầm non Kids’Smile tự hào là môi trường giáo dục hiện đại, an toàn và thân thiện, giúp trẻ phát triển toàn diện.  Với hệ thống cơ sở vật chất khang trang, trường mang đến không gian học tập và vui chơi lý tưởng. </p>
+             <div class="grid-container">
+                <div class="card"><h4>Khuôn viên rộng rãi, an toàn </h4><p>Trường có khuôn viên rộng rãi, thoáng mát nhiều cây xanh, không gian mở. Hệ thống an ninh và camera giám sát đảm bảo an toàn. </p>
+                    <img src="img_2506/2.khuonvien.jpg" alt="Sân chơi ngoài trời của trường Kids' Smile">
+                </div>
+                <div class="card"><h4>Phòng học hiện đại, thân thiện </h4><p>Các phòng học rộng rãi, đủ ánh sáng tự nhiên , trang bị bàn ghế phù hợp, điều hòa, bảng tương tác, TV... </p>
+                    <img src="img_2506/2.phonghoc.jpg" alt="Sân chơi ngoài trời của trường Kids' Smile">
+                </div>
+                <div class="card"><h4>Khu vui chơi ngoài trời đa dạng </h4><p>Sân chơi ngoài trời rộng rãi với nhiều trò chơi vận động như cầu trượt, xích đu, nhà bóng và khu tập gym riêng. </p>
+                    <img src="img_2506/3.sanchoi.jpg" alt="Sân chơi ngoài trời của trường Kids' Smile">
+                </div>
+                <div class="card"><h4>Phòng chức năng phong phú </h4><p>Bao gồm phòng nghệ thuật với đàn, trống  và thư viện nhỏ với nhiều sách tranh. </p>
+                    <img src="img_2506/4.phongchucnang.jpg" alt="Sân chơi ngoài trời của trường Kids' Smile">
+                </div>
+                <div class="card"><h4>Khu bếp ăn đạt chuẩn </h4><p>Hệ thống bếp ăn một chiều hiện đại, sử dụng bếp điện từ, đảm bảo vệ sinh an toàn thực phẩm. </p>
+                    <img src="img_2506/4.bepan.jpg" alt="Sân chơi ngoài trời của trường Kids' Smile">
+                </div>
+                <div class="card"><h4>Phòng y tế </h4><p>Có phòng y tế riêng với đầy đủ trang thiết bị sơ cứu và nhân viên y tế túc trực. </p>
+                    <img src="img_2506/5.yte.png" alt="Sân chơi ngoài trời của trường Kids' Smile">
+                </div>
+            </div>
+
+
+            <h3>Cơ cấu tổ chức </h3>
+            <ul>
+                <li><strong>Cô Phạm Thị Tuyên:</strong> Chủ tịch hội đồng quản trị, Thạc sỹ. </li>
+                <li><strong>Cô Phan Thị Thủy Tiên:</strong> Hiệu trưởng, Đại Học. </li>
+                <li><strong>Cô Nguyễn Thị Hồng Thơm:</strong> Phó hiệu trưởng, Đại Học. </li>
+                <li><strong>Cô Thái Thị Hải Yến:</strong> Phó hiệu trưởng, Đại Học. </li>
+                <li><strong>Cô Phan Thị Thanh An:</strong> Chủ tịch công đoàn, Đại Học. </li>
+                <li><strong>Cô Trương Thị Hương Lan:</strong> Ban vận hành, Thạc sỹ. </li>
+                <li><strong>Cô Nguyễn Thị Hiền:</strong> Tổ trưởng chuyên môn, Cao đẳng. </li>
+                <li><strong>Cô Lương Thị Hăng Nga:</strong> Kế toán, Đại Học. </li>
+            </ul>
+        </section>
+        
+        <section id="doi-ngu" class="container">
+            <h2>Đội ngũ giáo viên </h2>
+            <p>Tại Trường Mầm non Kids’Smile, chúng tôi tự hào về đội ngũ giáo viên tận tâm, giàu chuyên môn và chan chứa yêu thương.  Các cô không chỉ là người hướng dẫn kiến thức mà còn là người bạn, người mẹ thứ hai của trẻ. </p>
+            <div class="grid-container">
+                <div class="card"><h4>🎓 Trình độ chuyên môn vững vàng </h4><p>100% giáo viên đạt chuẩn và trên chuẩn, thường xuyên được tập huấn nâng cao kỹ năng. </p></div>
+                <div class="card"><h4>💗 Tận tâm – Trách nhiệm – Thấu hiểu </h4><p>Các cô luôn lấy đạo đức và nhân cách làm nền tảng, luôn lắng nghe và thấu cảm trẻ. </p></div>
+                <div class="card"><h4>🌟 Sáng tạo và linh hoạt </h4><p>Luôn đổi mới hoạt động, tổ chức trải nghiệm giúp trẻ phát triển toàn diện. </p></div>
+                <div class="card"><h4>🫶 Gắn bó và yêu thương </h4><p>Đội ngũ giáo viên là một gia đình chuyên môn gắn kết, cùng nhau nuôi dưỡng tình yêu nghề. </p></div>
+            </div>
+             <img src="img_2506/7.gvad.JPG" alt="Đội ngũ giáo viên trường Kids' Smile trong trang phục áo dài.">
+        </section>
+
+        <section id="chuong-trinh" class="container">
+            <h2>Chương trình chăm sóc – giáo dục trẻ </h2>
+            
+            <h3>Chương trình Giáo dục Mầm non mới </h3>
+            <p>Từ năm học 2024–2025, trường tiên phong thực hiện Chương trình Giáo dục Mầm non mới do Bộ Giáo dục & Đào tạo ban hành, hướng đến mục tiêu “lấy trẻ làm trung tâm – phát triển năng lực và phẩm chất”. </p>
+            <ul>
+                <li><strong>Mục tiêu:</strong> Tăng cường phát triển thể chất, ngôn ngữ, nhận thức, tình cảm xã hội và thẩm mỹ cho trẻ.  Hình thành nền tảng đạo đức, kỹ năng sống. </li>
+                <li><strong>Điểm nổi bật:</strong> Giáo dục theo dự án, tình huống gần gũi thay vì chủ đề áp đặt.  Giáo viên đóng vai trò hướng dẫn, gợi mở. </li>
+                <li><strong>Dự án thực tế:</strong> Tổ chức các dự án như Xứ Nghệ quê em, dân ca ví giặm, bóng đá mầm non, STEAM, giáo dục cảm xúc – nhân cách. </li>
+            </ul>
+
+            <h3>Chương trình giáo dục nhân cách – kỹ năng </h3>
+            <div class="grid-container">
+                <div class="card"><h4>TẾT TRI ÂN XUÂN HIẾU HẠNH </h4><p>Dịp Tết là cơ hội để giáo dục trẻ về lòng hiếu thảo, nguồn gốc của đạo đức.  Các con thực hành rửa chân, đấm lưng, bóp vai để tri ân Ông Bà, Bố Mẹ. </p></div>
+                <div class="card"><h4>RÈN LUYỆN SỰ TẬP TRUNG </h4><p>Sự tập trung là năng lực quan trọng cho việc học.  Trường tổ chức Hoạt động ĐỌC SÁCH CHỈ CHỮ hàng ngày với cuốn “Phép Tắc Người Con” để rèn luyện sự tập trung và đạo đức cho trẻ. </p></div>
+                <div class="card"><h4>QUY TRÌNH GIỜ ĂN </h4><p>Trẻ được học cách tự lập trong giờ ăn, tham gia vào việc sắp bàn ghế, chia cơm.  Trước bữa ăn, các con đọc bài thơ “Cảm ơn” để biết quý trọng thức ăn và công sức người lao động. </p></div>
+                <div class="card"><h4>KỸ NĂNG CHÀO HỎI LỄ PHÉP </h4><p>Chào hỏi lễ phép là nền tảng của nhân cách tốt đẹp và giúp trẻ phát triển kỹ năng giao tiếp, tạo sự tự tin. </p></div>
+                <div class="card"><h4>KĨ NĂNG CHĂM SÓC NGƯỜI THÂN </h4><p>Dạy trẻ kỹ năng chăm sóc người thân giúp xây dựng tình yêu thương, trách nhiệm và các kỹ năng xã hội.  Các bé học cách quan tâm, giúp đỡ ông bà, bố mẹ từ những việc nhỏ nhất. </p></div>
+            </div>
+        </section>
+
+        <section id="thuc-don" class="container">
+            <h2>Thực đơn </h2>
+            <h3>Thực đơn mùa hè </h3>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="img_2506/8.tdh.png" alt="Thực đơn tuần mùa hè cho trẻ và giáo viên tại Kids' Smile">
+                </div>
+                <div class="card">
+                    <img src="img_2506/8.tdh2.png" alt="Thực đơn tuần mùa hè cho trẻ và giáo viên tại Kids' Smile">
+                </div>
+            </div>
+            <h3>Thực đơn mùa đông </h3>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="img_2506/8.tdd.png" alt="Thực đơn tuần mùa đông cho trẻ và giáo viên tại Kids' Smile">
+                </div>
+                <div class="card">
+                    <img src="img_2506/8.tdd2.png" alt="Thực đơn tuần mùa đông cho trẻ và giáo viên tại Kids' Smile">
+                </div>
+            </div>
+        </section>
+        
+        <section id="chuong-trinh-tang-cuong" class="container">
+            <h2>Chương trình tăng cường </h2>
+            <div class="grid-container">
+                <div class="card"><h4>Tiếng Anh </h4><p>Trường đồng hành cùng Trung tâm Ngoại ngữ 2G Education, dạy học theo phương pháp UK với triết lý "ROOTS BEFORE WINGS – GỐC RỄ TRƯỚC ĐÔI CÁNH".  Tiếng Anh không chỉ là ngôn ngữ, mà là hành trang nhân cách. </p></div>
+                <div class="card"><h4>Võ thuật </h4><p>Lớp học võ định kỳ với HLV chuyên nghiệp giúp trẻ rèn thể lực, ý chí, tính kỷ luật, và kỹ năng tự bảo vệ. </p></div>
+                <div class="card"><h4>Vẽ </h4><p>Môn năng khiếu vẽ giúp kích thích trí tưởng tượng, rèn sự tập trung, và là cách để trẻ diễn đạt cảm xúc, nuôi dưỡng tâm hồn yêu cái đẹp. </p></div>
+                <div class="card"><h4>Múa </h4><p>Múa là ngôn ngữ không lời giúp trẻ thể hiện cảm xúc, rèn sự dẻo dai, cảm nhận âm nhạc và tăng sự tự tin. </p></div>
+                <div class="card"><h4>Cảm thụ âm nhạc </h4><p>Giúp trẻ không chỉ lắng nghe mà còn cảm nhận, phản xạ và thể hiện cảm xúc qua nhịp điệu, kích thích trí não và nuôi dưỡng cảm xúc tích cực. </p></div>
+                <div class="card"><h4>Bóng đá </h4><p>Các bé được huấn luyện bài bản cùng HLV chuyên nghiệp, giúp phát triển sức khỏe, sự nhanh nhẹn, tinh thần đồng đội và tính kỷ luật. </p></div>
+            </div>
+        </section>
+
+        <section id="tin-tuc" class="container">
+            <h2>Tin tức – Sự kiện </h2>
+            <div class="grid-container">
+                <article class="card"><h4>Lễ Tổng kết năm học 2024 – 2025 </h4><p>Một buổi lễ trang trọng và ấm áp nhìn lại chặng đường học tập, rèn luyện của các con, với những tiết mục văn nghệ sôi động và bữa tiệc liên hoan vui tươi. </p></article>
+                <article class="card"><h4>Khám phá mâm ngũ quả ngày tết </h4><p>Hoạt động giúp các con hiểu về ý nghĩa và sự khác biệt của mâm ngũ quả 3 miền, qua đó rèn luyện sự khéo léo và tinh thần làm việc nhóm. </p></article>
+                <article class="card"><h4>Đua xe thăng bằng </h4><p>Vòng loại được tổ chức để chuẩn bị cho Đại hội TDTT, giúp các con rèn luyện thể lực và kỹ năng giữ thăng bằng trong không khí sôi động. </p></article>
+                <article class="card"><h4>Bé tập làm căn cước công dân </h4><p>Hoạt động trải nghiệm giúp các con hiểu ý nghĩa của thẻ căn cước, niềm tự hào dân tộc và học về văn hóa ứng xử nơi công cộng. </p></article>
+                <article class="card"><h4>Sinh nhật tri ân tháng 11 </h4><p>Một nét văn hóa đặc trưng của trường, nơi các con thể hiện lòng hiếu thảo qua hành động rửa chân tri ân Ông Bà, Bố Mẹ. </p></article>
+                <article class="card"><h4>Trải nghiệm hái hồng </h4><p>Chuyến đi dã ngoại giúp các bé hòa mình vào thiên nhiên, học hỏi về quá trình cây kết trái và bồi đắp tâm yêu thương, san sẻ. </p></article>
+            </div>
+        </section>
+
+         <section id="hoat-dong-cong-dong" class="container">
+            <h2>Hoạt động cộng đồng </h2>
+            <div class="grid-container">
+                <article class="card"><h4>Lễ tri ân cha mẹ và vợ chồng </h4><p>Hoạt động thường niên của Hệ thống Giáo dục Khai Minh Đức nhằm tôn vinh nét đẹp văn hóa “uống nước nhớ nguồn” và lan tỏa tinh thần hiếu đạo.  Chương trình tại Nghệ An năm 2022 và 2023 đã thu hút hàng ngàn người tham dự và để lại nhiều cảm xúc sâu sắc. </p></article>
+                <article class="card"><h4>Trại hè "Kết nối yêu thương" & "Nhớ ơn nguồn cội" </h4><p>Các trại hè được tổ chức thường niên, giúp học sinh trải qua nhiều cung bậc cảm xúc, vun bồi lòng biết ơn với Tổ Quốc, Cha Mẹ, Thầy Cô và Xã hội.  Năm 2023, trại hè phối hợp cùng LĐLĐ TP. Vinh, thu hút hơn 200 con em CNVCLĐ tham gia. </p></article>
+                <article class="card"><h4>Lớp học “LÀM CON PHẢI HIẾU” </h4><p>Chương trình giáo dục miễn phí dành cho học sinh và phụ huynh, được tổ chức vào tối thứ 6 hàng tuần tại trường.  Lớp học nhằm vun bồi nhân cách tốt đẹp, đạo đức và kỹ năng sống quan trọng. </p></article>
+            </div>
+        </section>
+
+        <section id="tuyen-sinh" class="container">
+            <h2>Thông báo tuyển sinh năm học 2025 - 2026 </h2>
+            <ul>
+                <li><strong>Thời gian:</strong> từ 01/7/2025 đến 30/8/2025 </li>
+                <li><strong>Đối tượng tuyển sinh:</strong> Trẻ từ 6 tháng đến 5 tuổi </li>
+                <li><strong>Hồ sơ tuyển sinh gồm:</strong> 
+                    <ul>
+                        <li>01 bản sao giấy khai sinh của trẻ </li>
+                        <li>01 ảnh 3x4 trẻ, 01 ảnh chung Bố mẹ </li>
+                        <li>Phiếu đăng ký theo mẫu (nhận tại trường) </li>
+                    </ul>
+                </li>
+                 <li><strong>Nộp hồ sơ trực tiếp tại:</strong> Văn phòng Trường Mầm non Kids’ Smile </li>
+            </ul>
+            <p>Hãy cùng chúng tôi đồng hành để mỗi trẻ được sống trong một môi trường yêu thương, khám phá và trưởng thành theo cách hạnh phúc nhất! </p>
+            <img src="img_2506/cm.jpg" alt="Thực đơn tuần mùa đông cho trẻ và giáo viên tại Kids' Smile">
+        </section>
+    </main>
+
+    <footer id="lien-he">
+        <div class="container">
+            <h2>TRƯỜNG MẦM NON KIDS’ SMILE </h2>
+            <p><strong>Địa chỉ:</strong> Số 302 - Đường Lê Viết Thuật - TP.Vinh - Nghệ An </p>
+            <p><strong>Hotline tư vấn – hỗ trợ:</strong> 0918 181 355 – 0329 956 500 </p>
+            <p><strong>Email:</strong> truyenthongkidssmile@gmail.com </p>
+            <p><strong>Facebook:</strong> <a href="https://www.facebook.com/mamnonkidssmilevinh/" target="_blank">https://www.facebook.com/mamnonkidssmilevinh/</a> </p>
+            <p>&copy; 2025 Trường Mầm non Kids' Smile. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
